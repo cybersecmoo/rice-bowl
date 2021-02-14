@@ -16,3 +16,6 @@
 
 - [ ] Travis CI integration to push to GitHub Releases when merged in to main branch
 - [ ] SSH server
+- [ ] SSH reverse tunnel
+- [ ] SFTP server
+- [ ] HTTP client for C2

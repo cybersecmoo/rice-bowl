@@ -1,6 +1,11 @@
 .DEFAULT_GOAL := build
 
-fmt:
+deps:
+	go get github.com/gliderlabs/ssh
+	go install github.com/gliderlabs/ssh
+.PHONY:deps
+
+fmt: deps
 	go fmt ./...
 .PHONY:fmt
 
