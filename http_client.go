@@ -1,1 +1,0 @@
-// Handles beaconing back to the C2 server
